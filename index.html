@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content=""IE=edge>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Soham Sengupta || Portfolio Website</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/042ef7c564.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Modules</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <h1>Hi, I'm <span>Soham Sengupta</span></h1>
+                <p>I design & build user interfaces, write and play with data</p>
+                
+            </div>
+
+            
+        </div>
+
+    </div>
+    <!-------------ABOUT--------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.jpeg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hi, I'm Soham Sengupta👋.<br>  <br> I have been a tech enthusiast from my childhood who always loved playing with computer and mathematics.Datas in its various forms and shapes has always enticed me the most. For that, I wanted to pursue something related to Computer Science and its fundamentals so I went with Electrical Engineering as this was the perfect blend of software, hardware and the Datas that drive them all.💻 <br>  <br>I'am an EE undergrad student, who has a deep love for website designing and development. <br>  <br>I am a content writer by passion and I got to follow that passion when I was appointed as the content writing and social Media head in our prestigious photography club <b>PIXELS</b>✍ <br>  <br> I tried web development and many other domains but instantly found out that this web development and designing of turning a blank black page into something really fun is one of the things I love doing.<br>   <br>I'm always open to learn new stuffs and accept constructive feedbacks.❤ <br> <br> <br> <b> Currently looking for Internships</b></p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>Web Development</span><br>Designing and Development of Websites</li>
+                            <li><span>Data Analytics</span><br>Handling and implementing datasets using proper tools</li>
+
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            li><span>Jun 2023 – Jul 2023</span><br>Trainee, <i>Airport Authority of India Limited</i><br>→MAHARAJA BIR BIKRAM Initernational Airport<br>→BHEL manufactured Gas Turbine Generator(GTG: MS5001) and it's principles.<br>→Auto Transformer(30MVA, 66/132 KV) and Power Transformer(37.5 MVA, 11/132 KV)<br>→66 KV and 132 KV switchyard.</li>
+                            <li><span>2022 – 2023</span><br>Head Content Writer and Social media head, <i>PIXEL</i><br>→Handled the social media presence of the PIXEL club and was responsible for all content writing requirements during my tenure and also during the Technical and Cultural fest of our college</li>
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2020 – 2024</span><br>B. Tech in Electrical Engineering, <i>National Institute of Technology, Agartala</i><br>CGPA: 8.53/10</li>
+                            <li><span>2017 – 2019</span><br>XII(Higher Secondary),<i>Science, Shishu Bihar H.S. School, Agartala, Tripura</i><br>CGPA:8.58 /10</li>
+                            <li><span>2009 – 2017</span><br>X(Secondary), <i>Shishu Bihar H.S. School, Agartala, Tripura</i><br>CGPA: 9.36/10</li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--------------------I AM CURRENTLY WORKING ON------>
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">I'm currently working with</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-brands fa-python"></i>
+                <h2>Python</h2>
+                <p>As python is open-source, so python is having a large number of different libraries, modules and packages to help our projects. I am learning python as a part of wider data analytics skill set which can make me as a stronger candidate for data analysts.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-database"></i>
+                <h2>MySQL</h2>
+                <p>Nowadays, from startups to established companies, the job market looks good for SQL enthusiats.Accessing data, managing and retrieving them has now become comparitively easy using MYSQL and it is also having a huge demand in the Indian job market.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!--------------------Portfolio---------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div  class="work">
+                <img src="images/music.jpg">
+                <div class="layer">
+                    <h3><b>Music Player</b></h3>
+                    <p>This is a Music Player I made to practice my newly acquired HTML,CSS, AND JS skills.It's named as 'Play The Beat'. It helps you to listen some of my favourites from my Playlist</p>
+                    <a href="https://music-player-flame-two.vercel.app/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <!------<div  class="work">
+                <img src="images/InShot_20221110_072118288.jpg">
+                <div class="layer">
+                    <h3><b>Travel Log App</b></h3>
+                    <p>This will allow people to share their travel experience to a community of other travellers using this web application. They can browse travel experiences of other people , add their own experiences etc.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>--------->
+            <div class="work">
+                <img src="images/Toolyt-Blog-1200-x-628-px-17-min (1).png">
+                <div class="layer">
+                    <h3><b>Sales Insights</b></h3>
+                    <p>Designed a Power BI dashboard to understand hardware goods sales trend.The final dashboard was effective at displaying the sales trend allowing users to understand the data and make informed decisions.This dashboard could help in increasing the revenue at least by 7% in the next quarter</p>
+                    <a href="https://github.com/SohamSengupta150601/Sales-Insight"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+
+<!--------------------CONTACTS---------------->
+<div id="contact">
+    <div class="container">
+       <div class="row">
+         <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa-solid fa-envelope"></i>sohamsengupta610@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i>+91 9436548617</p>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/mahos.atpugnes?mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.linkedin.com/in/soham-sengupta-7a2915210/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/SohamSengupta150601"><i class="fa-brands fa-github"></i></a>
+                <a href="https://instagram.com/abal____keshto?igshid=MzNlNGNkZWQ4Mg=="><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            <a href="https://drive.google.com/file/d/1SwXq4HSp0e1jjMIGFk9AUNH7aza0xL90/view?usp=sharing" class="btn btn2">Resume</a>
+         </div>
+         <div class="contact-right">
+            <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="text" name="Email" placeholder="Your Email-id" required>
+                <textarea name="Message" rows="7" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+            </form> 
+            <span id="msg"></span>           
+        </div>
+       </div> 
+    </div>
+    <div class="copyright">
+        <p>Copyright @Soham<i class="fa-solid fa-heart"></i></p>
+    </div>
+</div>
+
+
+<script>
+
+var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+</script>
+<script>
+    var sidemenu= document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxVPLg04uUhyMxldo-ttun83BwmcL35VMIzwV5XOnPjYs7K8MwYIylqk-zRUS7m7EZkgA/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+
+</body>
+</html>
